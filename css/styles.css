@@ -45,11 +45,7 @@ body {
   padding: 0;
 }
 
-.links__item + .links__item {
-  margin-top: 2rem;
-}
-
-.links__anchor {
+.links__item {
   background-color: var(--c-wine);
   border-radius: 100rem;
   color: var(--c-cherry);
@@ -63,5 +59,9 @@ body {
   &:focus {
     background-color: color-mix(in srgb, var(--c-wine) 80%, var(--c-pink));
     scale: 1.05;
+  }
+
+  & + & {
+    margin-top: 2rem;
   }
 }
