@@ -11,7 +11,7 @@
 }
 
 body {
-  background: url(bg.jpg) top right no-repeat var(--c-cherry);
+  background: url("../img/bg.jpg") top right no-repeat var(--c-cherry);
   font-family: system-ui;
   padding: 4rem 2rem;
   text-align: center;
